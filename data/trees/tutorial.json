@@ -1,0 +1,73 @@
+{
+  "id": "tutorial_core",
+  "name": "Tutorial Tree",
+  "description": "Sample tree for validating json formats and usability.",
+  "nodes": [
+    {
+      "id": "tool_studies",
+      "name": "Tool Studies",
+      "cost": 2,
+      "description": "Basics",
+      "prereq": [],
+      "ichor_rank": 0
+    },
+    {
+      "id": "adv_tool_studies",
+      "name": "Adv. Tool Studies",
+      "cost": 3,
+      "description": "Better",
+      "prereq": [
+        "tool_studies"
+      ],
+      "ichor_rank": 1
+    },
+    {
+      "id": "expert_tool_studies",
+      "name": "Expert Tool Studies",
+      "cost": 4,
+      "description": "Master",
+      "prereq": [
+        "adv_tool_studies"
+      ],
+      "ichor_rank": 2
+    },
+    {
+      "id": "basics_building",
+      "name": "Basics of Building",
+      "cost": 2,
+      "description": "Carpentry 101",
+      "prereq": [],
+      "ichor_rank": 0
+    },
+    {
+      "id": "secrets_building",
+      "name": "Secrets of Building",
+      "cost": 3,
+      "description": "Joinery & framing",
+      "prereq": [
+        "basics_building"
+      ],
+      "ichor_rank": 2
+    },
+    {
+      "id": "crafting_speed",
+      "name": "Crafting Speed",
+      "cost": 3,
+      "description": "Work faster",
+      "prereq": [
+        "secrets_building"
+      ],
+      "ichor_rank": 3
+    },
+    {
+      "id": "improved_crafting",
+      "name": "Imp. Crafting Speed",
+      "cost": 5,
+      "description": "Even faster",
+      "prereq": [
+        "crafting_speed"
+      ],
+      "ichor_rank": 4
+    }
+  ]
+}

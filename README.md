@@ -5,7 +5,7 @@ It supports multiple characters, XP tracking, prerequisites, and *Ichor Rank* ga
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Usability
 - **Clickable, vertical skill trees** with automatic layout.
@@ -41,7 +41,7 @@ It supports multiple characters, XP tracking, prerequisites, and *Ichor Rank* ga
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Requirements
 - Python 3.9+

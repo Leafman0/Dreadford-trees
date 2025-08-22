@@ -1,0 +1,479 @@
+{
+  "id": "athenas_mirror",
+  "name": "Athena's Mirror",
+  "description": "Powers parsed from Athena's Mirror v5 flowchart (prereqs pending).",
+  "nodes": [
+    {
+      "id": "labyrinthine_soul",
+      "name": "Labyrinthine Soul",
+      "cost": 1,
+      "description": "FNORD",
+      "prereq": [],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "enhanced_initiative",
+      "name": "Enhanced Initiative",
+      "cost": 1,
+      "description": "FNORD",
+      "prereq": [
+        "accuity"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "accuity",
+      "name": "Accuity",
+      "cost": 1,
+      "description": "FNORD",
+      "prereq": [],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "anubis_measure",
+      "name": "Anubis’ Measure",
+      "cost": 1,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "echoes_of_the_heart",
+      "name": "Echoes of the Heart",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "mind_fracture",
+      "name": "Mind Fracture",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "labyrinthine_soul"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "psychic_rebuff",
+      "name": "Psychic Rebuff",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "labyrinthine_soul"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "alecto_s_warning",
+      "name": "Alecto’s Warning",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "enhanced_initiative"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "sharp_senses",
+      "name": "Sharp Senses",
+      "cost": 1,
+      "description": "FNORD",
+      "prereq": [
+        "accuity"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "eye_of_yesterday",
+      "name": "Eye of Yesterday",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "mirror_of_truth",
+      "name": "Mirror of Truth",
+      "cost": 1,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "stolen_perspective",
+      "name": "Stolen Perspective",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "mind_fracture"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "eclipse_of_the_mind",
+      "name": "Eclipse of the Mind",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "psychic_rebuff"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "the_oracle_s_execution",
+      "name": "The Oracle’s Execution",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "alecto_s_warning"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "echo_of_gazing",
+      "name": "Echo of Gazing",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "sharp_senses"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "pale_gaze",
+      "name": "Pale Gaze",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "sharp_senses"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "insightful_gaze",
+      "name": "Insightful Gaze",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "sharp_senses"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "serpent_s_tongue",
+      "name": "Serpent’s Tongue",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "silent_epistle",
+      "name": "Silent Epistle",
+      "cost": 1,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "telepathy",
+      "name": "Telepathy",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "stolen_perspective"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "slow_motion",
+      "name": "Slow Motion",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "the_oracle_s_execution"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "guardian_s_perch",
+      "name": "Guardian’s Perch",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "echo_of_gazing"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "steadfast_vigil",
+      "name": "Steadfast Vigil",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "netherbound_hold",
+      "name": "Netherbound Hold",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "pale_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "the_labyrinth_s_key",
+      "name": "The Labyrinth’s Key",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "unmasking_glare",
+      "name": "Unmasking Glare",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "insightful_gaze"
+      ],
+      "ichor_rank": "Bloodling"
+    },
+    {
+      "id": "mind_chain",
+      "name": "Mind Chain",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "telepathy"
+      ],
+      "ichor_rank": "Scion"
+    },
+    {
+      "id": "astral_projection",
+      "name": "Astral Projection",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [],
+      "ichor_rank": "Scion"
+    },
+    {
+      "id": "wandering_perception",
+      "name": "Wandering Perception",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "astral_projection"
+      ],
+      "ichor_rank": "Scion"
+    },
+    {
+      "id": "augur_s_shield",
+      "name": "Augur’s Shield",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "guardian_s_perch"
+      ],
+      "ichor_rank": "Scion"
+    },
+    {
+      "id": "hades_covenant",
+      "name": "Hades’ Covenant",
+      "cost": 1,
+      "description": "FNORD",
+      "prereq": [
+        "netherbound_hold"
+      ],
+      "ichor_rank": "Elder"
+    },
+    {
+      "id": "unseen_choir",
+      "name": "Unseen Choir",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "steadfast_vigil"
+      ],
+      "ichor_rank": "Elder"
+    },
+    {
+      "id": "mind_s_reach",
+      "name": "Mind's Reach",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "mind_chain"
+      ],
+      "ichor_rank": "Elder"
+    },
+    {
+      "id": "whispering_eidolon",
+      "name": "Whispering Eidolon",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "astral_projection"
+      ],
+      "ichor_rank": "Elder"
+    },
+    {
+      "id": "forced_journey",
+      "name": "Forced Journey",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [
+        "astral_projection"
+      ],
+      "ichor_rank": "Scion"
+    },
+    {
+      "id": "window_in_the_horizon",
+      "name": "Window in the Horizon",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "augur_s_shield"
+      ],
+      "ichor_rank": "Elder"
+    },
+    {
+      "id": "yama_s_reckoning",
+      "name": "Yama’s Reckoning",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "unseen_choir"
+      ],
+      "ichor_rank": "Ascendant"
+    },
+    {
+      "id": "read_like_a_book",
+      "name": "Read Like a Book",
+      "cost": 4,
+      "description": "FNORD",
+      "prereq": [
+        "unseen_choir"
+      ],
+      "ichor_rank": "Ascendant"
+    },
+    {
+      "id": "mastery_9_again",
+      "name": "Mastery (9-again)",
+      "cost": 2,
+      "description": "FNORD",
+      "prereq": [],
+      "ichor_rank": "Elder"
+    },
+    {
+      "id": "cosmic_ledger",
+      "name": "Cosmic Ledger",
+      "cost": 4,
+      "description": "FNORD",
+      "prereq": [
+        "window_in_the_horizon"
+      ],
+      "ichor_rank": "Ascendant"
+    },
+    {
+      "id": "voice_of_thoth",
+      "name": "Voice of Thoth",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "mind_s_reach"
+      ],
+      "ichor_rank": "Ascendant"
+    },
+    {
+      "id": "astral_entourage",
+      "name": "Astral Entourage",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "whispering_eidolon"
+      ],
+      "ichor_rank": "Ascendant"
+    },
+    {
+      "id": "whisper_of_the_cosmos",
+      "name": "Whisper of the Cosmos",
+      "cost": 4,
+      "description": "FNORD",
+      "prereq": [
+        "read_like_a_book"
+      ],
+      "ichor_rank": "Ascendant"
+    },
+    {
+      "id": "mastery_8_again",
+      "name": "Mastery (8-again)",
+      "cost": 3,
+      "description": "FNORD",
+      "prereq": [
+        "mastery_9_again"
+      ],
+      "ichor_rank": "Ascendant"
+    },
+    {
+      "id": "mind_shatter",
+      "name": "Mind Shatter",
+      "cost": 4,
+      "description": "FNORD",
+      "prereq": [
+        "voice_of_thoth"
+      ],
+      "ichor_rank": "Ascendant"
+    },
+    {
+      "id": "morpheus_unchaining",
+      "name": "Morpheus Unchaining",
+      "cost": 4,
+      "description": "FNORD",
+      "prereq": [
+        "astral_entourage"
+      ],
+      "ichor_rank": "Ancient Evil"
+    },
+    {
+      "id": "omniscient_awareness",
+      "name": "Omniscient Awareness",
+      "cost": 4,
+      "description": "FNORD",
+      "prereq": [
+        "whisper_of_the_cosmos"
+      ],
+      "ichor_rank": "Ancient Evil"
+    },
+    {
+      "id": "mastery_rote",
+      "name": "Mastery (Rote)",
+      "cost": 4,
+      "description": "FNORD",
+      "prereq": [
+        "mastery_8_again"
+      ],
+      "ichor_rank": "Bloodling"
+    }
+  ]
+}

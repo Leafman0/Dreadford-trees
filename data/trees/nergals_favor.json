@@ -1,0 +1,327 @@
+{
+  "id": "nergals_favor",
+  "name": "Nergal's Favor",
+  "description": "Powers parsed from Nergal's Favor v5 PDF (with prerequisites).",
+  "nodes": [
+    {
+      "id": "breeze_of_luck",
+      "name": "Breeze of Luck",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "evil_eye",
+      "name": "Evil Eye",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "misfortune",
+      "name": "Misfortune",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "boon",
+      "name": "Boon",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["breeze_of_luck"]
+    },
+    {
+      "id": "calamity",
+      "name": "Calamity",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["breeze_of_luck"]
+    },
+    {
+      "id": "hex",
+      "name": "Hex",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["evil_eye", "breeze_of_luck"]
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx*",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["breeze_of_luck"]
+    },
+    {
+      "id": "serendipity",
+      "name": "Serendipity",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["breeze_of_luck"]
+    },
+    {
+      "id": "shared_fate",
+      "name": "Shared Fate",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["jinx", "twist_of_fate"]
+    },
+    {
+      "id": "shifting_the_odds",
+      "name": "Shifting the Odds",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["serendipity"]
+    },
+    {
+      "id": "stroke_of_luck",
+      "name": "Stroke of Luck",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["breeze_of_luck"]
+    },
+    {
+      "id": "grave_misfortune",
+      "name": "Grave Misfortune",
+      "cost": 3,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": ["misfortune"]
+    },
+    {
+      "id": "blight_abound",
+      "name": "Blight Abound",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": ["destinys_ruin"]
+    },
+    {
+      "id": "bounty_abound",
+      "name": "Bounty Abound",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": ["destinys_bounty"]
+    },
+    {
+      "id": "can_i_borrow_this",
+      "name": "Can I Borrow This?",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": ["shifting_the_odds"]
+    },
+    {
+      "id": "destinys_bounty",
+      "name": "Destiny’s Bounty",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": ["stroke_of_luck"]
+    },
+    {
+      "id": "destinys_ruin",
+      "name": "Destiny’s Ruin",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": ["calamity"]
+    },
+    {
+      "id": "taking_the_ball_away",
+      "name": "Taking the Ball Away",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": ["shifting_the_odds"]
+    },
+    {
+      "id": "twist_of_fate",
+      "name": "Twist of Fate",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": ["shared_fate"]
+    },
+    {
+      "id": "unbelievable",
+      "name": "Unbelievable...",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": ["stroke_of_luck"]
+    },
+    {
+      "id": "extended_fortunes",
+      "name": "Extended Fortunes",
+      "cost": 1,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": ["unbelievable"]
+    },
+    {
+      "id": "mastery_9_again",
+      "name": "Mastery (9-again)",
+      "cost": 2,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "booning_presence",
+      "name": "Booning Presence",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": ["destinys_bounty"]
+    },
+    {
+      "id": "gift_of_the_cat",
+      "name": "Gift of the Cat",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": ["destinys_bounty"]
+    },
+    {
+      "id": "inevitable_karma",
+      "name": "Inevitable Karma",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": ["twist_of_fate"]
+    },
+    {
+      "id": "strings_of_fate",
+      "name": "Strings of Fate",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": ["can_i_borrow_this", "taking_the_ball_away", "communal_fortunes"]
+    },
+    {
+      "id": "watchful_eye",
+      "name": "Watchful Eye",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": ["destinys_ruin"]
+    },
+    {
+      "id": "transference_of_fortunes",
+      "name": "Transference of Fortunes*",
+      "cost": 4,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": ["blight_abound", "bounty_abound"]
+    },
+    {
+      "id": "communal_fortunes",
+      "name": "Communal Fortunes",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": ["inevitable_karma"]
+    },
+    {
+      "id": "mastery_8_again",
+      "name": "Mastery (8-again)",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": ["mastery_9_again"]
+    },
+    {
+      "id": "pariah",
+      "name": "Pariah",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": ["watchful_eye"]
+    },
+    {
+      "id": "scaled_boons",
+      "name": "Scaled Boons",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": ["booning_presence"]
+    },
+    {
+      "id": "scaled_curses",
+      "name": "Scaled Curses",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": ["watchful_eye"]
+    },
+    {
+      "id": "improved_gift",
+      "name": "Improved Gift",
+      "cost": 4,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": ["gift_of_the_cat"]
+    },
+    {
+      "id": "miracle",
+      "name": "Miracle",
+      "cost": 4,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": ["communal_fortunes"]
+    },
+    {
+      "id": "impossibility_dominion",
+      "name": "Impossibility Dominion",
+      "cost": 4,
+      "ichor_rank": "Ancient Evil",
+      "description": "FNORD",
+      "prereq": ["communal_fortunes"]
+    },
+    {
+      "id": "mastery_rote",
+      "name": "Mastery (Rote)",
+      "cost": 4,
+      "ichor_rank": "Ancient Evil",
+      "description": "FNORD",
+      "prereq": ["mastery_8_again"]
+    },
+    {
+      "id": "miracles_abound",
+      "name": "Miracles Abound",
+      "cost": 4,
+      "ichor_rank": "Ancient Evil",
+      "description": "FNORD",
+      "prereq": ["miracle"]
+    },
+    {
+      "id": "prometheus_curse",
+      "name": "Prometheus Curse",
+      "cost": 4,
+      "ichor_rank": "Ancient Evil",
+      "description": "FNORD",
+      "prereq": ["pariah"]
+    },
+    {
+      "id": "tbd",
+      "name": "TBD",
+      "cost": 4,
+      "ichor_rank": "Ancient Evil",
+      "description": "FNORD",
+      "prereq": ["scaled_boons"]
+    }
+  ]
+}

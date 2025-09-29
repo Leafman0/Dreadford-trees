@@ -1,0 +1,386 @@
+{
+  "id": "hades_cloak",
+  "name": "Hades Cloak",
+  "description": "Powers parsed from Hades Cloak v5 PDF (strict color-rank mapping).",
+  "nodes": [
+    {
+      "id": "belonging",
+      "name": "Belonging",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "veil_of_shadows"
+      ]
+    },
+    {
+      "id": "busy_doing_nothing",
+      "name": "Busy Doing Nothing",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "visage_shifting"
+      ]
+    },
+    {
+      "id": "cleansing_impression",
+      "name": "Cleansing Impression",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "dissonance",
+        "slenderman"
+      ]
+    },
+    {
+      "id": "dissonance",
+      "name": "Dissonance",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "visage_shifting"
+      ]
+    },
+    {
+      "id": "faking_it",
+      "name": "Faking It",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "busy_doing_nothing"
+      ]
+    },
+    {
+      "id": "i_know",
+      "name": "I know",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "iron_facade",
+      "name": "Iron Facade",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "busy_doing_nothing"
+      ]
+    },
+    {
+      "id": "mask_of_the_beast",
+      "name": "Mask of the Beast",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "masque_of_deception"
+      ]
+    },
+    {
+      "id": "passing_resemblance",
+      "name": "Passing Resemblance",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "sleep_unseen",
+      "name": "Sleep Unseen",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "enshroud_the_flock"
+      ]
+    },
+    {
+      "id": "slenderman",
+      "name": "Slenderman",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "visage_shifting",
+        "veil_of_shadows"
+      ]
+    },
+    {
+      "id": "unseen_spirit",
+      "name": "Unseen Spirit",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "veil_of_shadows",
+      "name": "Veil of Shadows",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "visage_shifting",
+      "name": "Visage Shifting",
+      "cost": 1,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "assume_the_concept",
+      "name": "Assume the Concept",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "masque_of_deception"
+      ]
+    },
+    {
+      "id": "enshroud_the_flock",
+      "name": "Enshroud the Flock",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "unseen_phantom"
+      ]
+    },
+    {
+      "id": "masque_of_deception",
+      "name": "Masque of Deception",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "iron_facade",
+        "faking_it"
+      ]
+    },
+    {
+      "id": "supernatural_occlusion",
+      "name": "Supernatural Occlusion",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "cleansing_impression"
+      ]
+    },
+    {
+      "id": "the_perfect_lie",
+      "name": "The Perfect Lie",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "unseen_phantom",
+      "name": "Unseen Phantom",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": [
+        "veil_of_shadows"
+      ]
+    },
+    {
+      "id": "wraiths_presence",
+      "name": "Wraith’s Presence",
+      "cost": 2,
+      "ichor_rank": "Bloodling / Neophyte",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "conceal",
+      "name": "Conceal",
+      "cost": 2,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": [
+        "enshroud_the_flock"
+      ]
+    },
+    {
+      "id": "confusion_of_the_eye",
+      "name": "Confusion of the Eye",
+      "cost": 2,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": [
+        "masque_of_deception"
+      ]
+    },
+    {
+      "id": "invisible_secrets",
+      "name": "Invisible Secrets",
+      "cost": 2,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "cache",
+      "name": "Cache",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": [
+        "cleansing_impression"
+      ]
+    },
+    {
+      "id": "cloak_the_gathering",
+      "name": "Cloak the Gathering",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": [
+        "enshroud_the_flock"
+      ]
+    },
+    {
+      "id": "cutting_of_the_strings",
+      "name": "Cutting of the Strings",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "out_of_sight_out_of_mind",
+      "name": "Out of Sight, Out of Mind",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": [
+        "cleansing_impression"
+      ]
+    },
+    {
+      "id": "stygian_fortress",
+      "name": "Stygian Fortress",
+      "cost": 3,
+      "ichor_rank": "Scion",
+      "description": "FNORD",
+      "prereq": [
+        "cleansing_impression"
+      ]
+    },
+    {
+      "id": "mastery_9_again",
+      "name": "Mastery (9-again)",
+      "cost": 2,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "battlefield_obfuscation",
+      "name": "Battlefield Obfuscation****",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "blithe_acceptance",
+      "name": "Blithe Acceptance",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "forbiddance",
+      "name": "Forbiddance",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "mirage_of_many",
+      "name": "Mirage of Many",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "pass_into_yesteryear",
+      "name": "Pass into Yesteryear",
+      "cost": 3,
+      "ichor_rank": "Elder",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "forged_persona",
+      "name": "Forged Persona",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "horrific_visage",
+      "name": "Horrific Visage",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "invisible_weapon",
+      "name": "Invisible Weapon",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "mastery_8_again",
+      "name": "Mastery (8-again)",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "personality_metamorph",
+      "name": "Personality Metamorph",
+      "cost": 3,
+      "ichor_rank": "Ascendant",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "mastery_rote",
+      "name": "Mastery (Rote)",
+      "cost": 4,
+      "ichor_rank": "Ancient Evil",
+      "description": "FNORD",
+      "prereq": []
+    },
+    {
+      "id": "veil_of_blessed_ignorance",
+      "name": "Veil of Blessed Ignorance",
+      "cost": 4,
+      "ichor_rank": "Ancient Evil",
+      "description": "FNORD",
+      "prereq": []
+    }
+  ]
+}
